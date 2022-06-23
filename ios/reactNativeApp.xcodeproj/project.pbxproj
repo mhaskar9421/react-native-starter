@@ -430,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EE3A56BCAF68D5E70272DE3 /* Pods-reactNativeApp-reactNativeAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF23C0E334C7DA7C9C87B3DD /* Pods-reactNativeApp-reactNativeAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = reactNativeAppTests/Info.plist;

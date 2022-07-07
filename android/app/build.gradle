@@ -274,21 +274,21 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     //noinspection GradleDynamicVersion
-    implementation 'com.facebook.react:react-native:0.68.2'  // From node_modules
+    implementation 'com.facebook.react:react-native:0.69.1'  // From node_modules
 
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'androidx.appcompat:appcompat:1.6.0-alpha05'
 
-    debugImplementation("com.facebook.flipper:flipper:0.147.1") {
+    debugImplementation('com.facebook.flipper:flipper:0.153.0') {
         exclude group:'com.facebook.fbjni'
     }
 
-    debugImplementation("com.facebook.flipper:flipper-network-plugin:0.147.1") {
+    debugImplementation('com.facebook.flipper:flipper-network-plugin:0.153.0') {
         exclude group:'com.facebook.flipper'
         exclude group:'com.squareup.okhttp3', module:'okhttp'
     }
 
-    debugImplementation("com.facebook.flipper:flipper-fresco-plugin:0.147.1") {
+    debugImplementation('com.facebook.flipper:flipper-fresco-plugin:0.153.0') {
         exclude group:'com.facebook.flipper'
     }
 

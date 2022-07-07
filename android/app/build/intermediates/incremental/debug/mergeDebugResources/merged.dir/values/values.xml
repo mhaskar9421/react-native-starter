@@ -234,6 +234,7 @@
     <item name="accessibility_custom_action_9" type="id"/>
     <item name="accessibility_hint" type="id"/>
     <item name="accessibility_label" type="id"/>
+    <item name="accessibility_links" type="id"/>
     <item name="accessibility_role" type="id"/>
     <item name="accessibility_state" type="id"/>
     <item name="accessibility_value" type="id"/>
@@ -1473,10 +1474,11 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <style name="CalendarDatePickerDialog" ns2:targetApi="lollipop" parent="Theme.AppCompat.Light.Dialog">
+    <style name="CalendarDatePickerDialog" ns2:targetApi="lollipop" parent="android:Theme.Material.Dialog.Alert">
         <item name="android:datePickerStyle">@style/CalendarDatePickerStyle</item>
+        <item name="android:windowIsFloating">true</item>
     </style>
-    <style name="CalendarDatePickerStyle" ns2:targetApi="lollipop" parent="android:Widget.Material.Light.DatePicker">
+    <style name="CalendarDatePickerStyle" ns2:targetApi="lollipop" parent="android:Widget.Material.DatePicker">
         <item name="android:datePickerMode">calendar</item>
     </style>
     <style name="DialogAnimationFade">

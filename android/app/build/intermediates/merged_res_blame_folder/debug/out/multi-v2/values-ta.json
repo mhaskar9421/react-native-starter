@@ -4,7 +4,7 @@
             "outputFile": "com.reactnativeapp-mergeDebugResources-27:/values-ta/values-ta.xml",
             "map": [
                 {
-                    "source": "/Users/sachinmhaskar/.gradle/caches/transforms-3/f6a5a2baf3ac887f7ed34c31a98553bc/transformed/appcompat-1.6.0-alpha05/res/values-ta/values-ta.xml",
+                    "source": "/Users/sachinmhaskar/.gradle/caches/transforms-3/3eec1b3c4aba2f7e405659d44ec7afe2/transformed/appcompat-1.6.0-alpha05/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sachinmhaskar/.gradle/caches/transforms-3/847b541ec16a37d512d2aff0281e7a46/transformed/core-1.9.0-alpha05/res/values-ta/values-ta.xml",
+                    "source": "/Users/sachinmhaskar/.gradle/caches/transforms-3/4ba68a8950e3ef8bed5a20fc0bcfcb81/transformed/core-1.9.0-alpha05/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
